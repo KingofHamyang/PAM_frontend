@@ -1,68 +1,27 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+설문조사 플랫폼 ParticipateAsMoney **PAM**
+======================
 
-## Available Scripts
+## 1. **ParticipateAsMoney** 소개
+**ParticipateAsMoney** (PAM)은 설문조사를 등록하고, 참여할 수 있는 사이트입니다. 설문에 참여하는 사람들은 그 대가로 포인트를 받을 수 있으며, 설문을 등록하고 하는 사람은 그에 합당한 대가를 지불해야 합니다. 포인트를 통해 참여를 유도하고, 설문을 등록하는 설문조사 생태계 플랫폼 조성을 목표로 합니다.
 
-In the project directory, you can run:
+## 2. Front-end
+이 repository는 PAM의 front-end입니다. React.js로 작성되었으며, 아직 디자인은 입히지 않았습니다.
 
-### `npm start`
+## 3. 실행 방법
+### 1. package.json에 나와있는 모듈을 모두 설치한다
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```
+npm install axios
+npm install immutable
+...등등
+```
+### 2. npm start를 이용하여 테스트서버 실행
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+```
+npm start
+```
 
-### `npm test`
+주의. 아직 배포환경에서 쓸 정도로 개발되지 않았습니다!
+	
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+****

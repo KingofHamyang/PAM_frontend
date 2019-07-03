@@ -1,0 +1,19 @@
+.Information {
+    display: flex;
+    flex-direction: column;
+}
+.Information-ID {
+    width: 80%;
+
+    margin: 10px auto;
+}
+.Information-button {
+    display: flex;
+    justify-content: flex-end;
+    margin: auto;
+    width: 80%;
+}
+.Information-button input {
+    margin-left : 6px;
+    margin-right: 6px;
+}
